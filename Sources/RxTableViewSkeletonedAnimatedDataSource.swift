@@ -77,7 +77,7 @@ public class RxTableViewSkeletonedAnimatedDataSource<S: AnimatableSectionModelTy
     }
     
     public func collectionSkeletonView(_ skeletonView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return numberOfRowsInSection(self, skeletonView, section)
+        return 30
     }
     
     public func collectionSkeletonView(_ skeletonView: UITableView, cellIdentifierForRowAt indexPath: IndexPath) -> String {

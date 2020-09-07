@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "RxSkeleton"
-  spec.version      = "0.0.9"
+  spec.version      = "0.0.10"
   spec.summary      = "Support for using SkeletonView with RxDataSources."
 
   # This description is used to generate tags and improve search results.
